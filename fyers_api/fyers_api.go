@@ -2,7 +2,7 @@ package fyersapi
 
 import (
 	"fmt"
-	"fyers-go-sdk/common"
+	"github.com/nihalsuthar/fyers-go-sdk/common"
 	"net/http"
 	"time"
 )

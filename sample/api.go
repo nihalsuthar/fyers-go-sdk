@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	fyersapi "fyers-go-sdk/fyers_api"
+	fyersapi "github.com/nihalsuthar/fyers-go-sdk/fyers_api"
 )
 
 func main() {

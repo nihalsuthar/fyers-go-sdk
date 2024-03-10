@@ -1,4 +1,4 @@
-module fyers-go-sdk
+module github.com/nihalsuthar/fyers-go-sdk
 
 go 1.22
 

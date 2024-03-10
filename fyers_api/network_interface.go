@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"fyers-go-sdk/common"
+	"github.com/nihalsuthar/fyers-go-sdk/common"
 	"io"
 	"net/http"
 	"net/url"
