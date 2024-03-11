@@ -46,7 +46,7 @@ type QuotesDResp struct {
 }
 
 type QuotesVResp struct {
-	Ask            int           `json:"ask"`
+	Ask            float64       `json:"ask"`
 	Bid            float64       `json:"bid"`
 	Ch             float64       `json:"ch"`
 	Chp            float64       `json:"chp"`
