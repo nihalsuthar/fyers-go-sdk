@@ -55,7 +55,7 @@ type QuotesVResp struct {
 	Exchange       string        `json:"exchange"`
 	FyToken        string        `json:"fyToken"`
 	HighPrice      float64       `json:"high_price"`
-	LowPrice       float64           `json:"low_price"`
+	LowPrice       float64       `json:"low_price"`
 	Lp             float64       `json:"lp"`
 	OpenPrice      float64       `json:"open_price"`
 	OriginalName   string        `json:"original_name"`
