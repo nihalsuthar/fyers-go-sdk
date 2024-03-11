@@ -92,11 +92,13 @@ type OrderPlacementBody struct {
 	Type         int    `json:"type"`
 	Side         int    `json:"side"`
 	ProductType  string `json:"productType"`
-	LimitPrice   int    `json:"limitPrice"`
-	StopPrice    int    `json:"stopPrice"`
+	LimitPrice   float64`json:"limitPrice"`
+	StopPrice    float64`json:"stopPrice"`
 	Validity     string `json:"validity"`
 	DisclosedQty int    `json:"disclosedQty"`
 	OfflineOrder bool   `json:"offlineOrder"`
+	TakeProfit   float64`json:"takeProfit"`
+	StopLoss     float64`json:"stopLoss,omitempty"`
 	OrderTag     string `json:"orderTag,omitempty"`
 }
 
